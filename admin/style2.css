@@ -1,0 +1,58 @@
+body, html {
+    background-image: url(img/bg.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+.frm{
+    height: 40px;
+    border-radius: 10px;
+    border: solid #801243 3px; 
+    width: 400px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: #801243;
+    text-align: center;
+}
+h4{
+    font-family: 'Kanit', sans-serif;
+    color: #801243;
+}
+.bt1{
+    cursor: pointer;
+    width: 400px;
+    height: 50px;
+    border: solid #ffffff 3px;
+    border-radius: 15px;
+    background-color: #801243;
+    color: white;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #801243;
+}

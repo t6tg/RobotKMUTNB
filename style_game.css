@@ -1,0 +1,54 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+ul {
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+color: white;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+#nameuser{
+    background-color: #801243;
+}
+li a:hover {
+background-color: #801243;
+}
+.backbtn{
+    width: 300px;
+    height: 40px;
+    background-color: #801243;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Kanit' , sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.frm{
+    margin-top: 100px;
+    margin-bottom: 3w00px;
+}
+#submit{
+    width: 300px;
+    height: 40px;
+    background-color: #801243;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Kanit' , sans-serif;
+    border: none;
+    cursor: pointer;
+}
